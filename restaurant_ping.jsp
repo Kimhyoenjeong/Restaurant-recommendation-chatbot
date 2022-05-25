@@ -15,7 +15,6 @@
 	#category li:last-child{margin-right:0;border-right:0;}
 	#category li span {display: block;margin:0 auto 3px;width:27px;height: 28px;}
 	#category li .category_bg {background:url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/places_category.png) no-repeat;}
-	#category li .cafe {background-position: -10px -144px;}
 	#category li .store {background-position: -10px -180px;}
 	#category li.on .category_bg {background-position-x:-46px;}
 	.placeinfo_wrap {position:absolute;bottom:28px;left:-150px;width:300px;}
@@ -55,10 +54,6 @@
 <div class="map_wrap">
     <div id="map" style="width:100%;height:100%;position:relative;overflow:hidden;"></div>
     <ul id="category">
-        <li id="CE7" data-order="4"> 
-            <span class="category_bg cafe"></span>
-            카페
-        </li>  
         <li id="FD6" data-order="5"> 
             <span class="category_bg store"></span>
             음식점
